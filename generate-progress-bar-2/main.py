@@ -1,6 +1,5 @@
 from PIL import Image, ImageDraw, ImageFont
 
-
 def create_leadership_progress_bar(value, color, bg_color, under, up, type, width_cm=100, height_cm=4, dpi=100, line_width=10, border_radius=70, num_lines=1, texts=None, font_size=40):
     # Convert dimensions from cm to pixels
     width = int(width_cm * dpi / 2.54)  # 1 inch = 2.54 cm
